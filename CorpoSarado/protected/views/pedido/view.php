@@ -16,7 +16,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Pedido #<?php echo $model->cod_pedido; ?></h1>
+<h1>Visualizar Pedido #<?php echo $model->cod_pedido; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

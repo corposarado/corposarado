@@ -12,14 +12,16 @@ body
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background: white;
-	border: 1px solid #C9E0ED;
+	border: 1px solid #121c28;
 }
 
 #header
 {
 	margin: 0;
 	padding: 0;
-	border-top: 3px solid #C9E0ED;
+	background-image: url( 'orange.jpg' );
+	background-repeat: no-repeat;
+	height: 238px;
 }
 
 #content
@@ -38,18 +40,20 @@ body
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #C9E0ED;
+	border-top: 1px solid #627aad;
 }
 
 #logo
 {
 	padding: 10px 20px;
 	font-size: 200%;
+	color: #ffeb53;
 }
 
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+	/* background:white url(bg.gif) repeat-x left top; */
+	background-color: #000;
 }
 
 #mainmenu ul
@@ -63,9 +67,13 @@ body
 	display: inline;
 }
 
+/* dark superman blue: #121c28 */
+/* superman red: #c3352b */
+/* superman yellow: #fdf4a5 */
+
 #mainmenu ul li a
 {
-	color:#ffffff;
+	color:#ffeb53;
 	background-color:transparent;
 	font-size:12px;
 	font-weight:bold;
@@ -75,8 +83,8 @@ body
 
 #mainmenu ul li a:hover, #mainmenu ul li.active a
 {
-	color: #6399cd;
-	background-color:#EFF4FA;
+	color: #fff;
+	background-color:#e35501;
 	text-decoration:none;
 }
 

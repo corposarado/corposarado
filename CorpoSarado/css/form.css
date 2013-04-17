@@ -82,7 +82,7 @@ div.form span.required
 	color: red;
 }
 
-div.form div.error label:first-child,
+div.form div.error label,
 div.form label.error,
 div.form span.error
 {
@@ -111,10 +111,6 @@ div.form select.success
 	border-color: #C6D880;
 }
 
-div.form div.success label
-{
-	color: inherit;
-}
 
 div.form .errorSummary
 {
@@ -127,7 +123,7 @@ div.form .errorSummary
 
 div.form .errorMessage
 {
-	color: red;
+	color: orange;
 	font-size: 0.9em;
 }
 

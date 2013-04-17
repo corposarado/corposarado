@@ -1,13 +1,5 @@
 
-  <?php $this->widget('bootstrap.widgets.TbButton', array(
-                        'icon' => 'icon-plus',
-                        'size' =>'medium',
-                        'type' => 'warning',
-                        'buttonType' => 'ajaxLink',
-                        'url' => $this->createUrl('addItem'),
-                        'ajaxOptions'=>array('type'=>'POST', 'success'=>'allFine'),
-                        
-                )); ?>
+  
 <?php
 /* @var $this PedidoController */
 /* @var $model Pedido */
@@ -22,6 +14,7 @@ $this->menu=array(
 	array('label'=>'Manage Pedido', 'url'=>array('admin')),
 );
 ?>
+
 
 <h1>Create Pedido</h1>
 

@@ -78,15 +78,15 @@ class Funcionario extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_func' => 'Cod Func',
+			'cod_func' => 'ID',
 			'nome' => 'Nome',
-			'endereco' => 'Endereco',
-			'data_nasci' => 'Data Nasci',
+			'endereco' => 'Endereço',
+			'data_nasci' => 'Data Nascimento',
 			'telefone' => 'Telefone',
 			'email' => 'Email',
 			'senha' => 'Senha',
-			'admin' => 'Admin',
-			'uf' => 'Uf',
+			'admin' => 'Administrador?',
+			'uf' => 'Estado',
 			'cidade' => 'Cidade',
 		);
 	}

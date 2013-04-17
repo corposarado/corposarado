@@ -53,7 +53,8 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'admin'); ?>
-		<?php echo $form->textField($model,'admin'); ?>
+		<?php echo $form->radioButton($model,'admin',array('value'=>'0')) . 'Não'; ?>
+		<?php echo $form->radioButton($model,'admin',array('value'=>'1')) . 'Sim'; ?>
 		<?php echo $form->error($model,'admin'); ?>
 	</div>
 
