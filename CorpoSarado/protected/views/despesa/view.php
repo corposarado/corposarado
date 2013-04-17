@@ -24,5 +24,7 @@ $this->menu=array(
 		'id_despesa',
 		'descricao',
 		'valor',
+		'data_vencimento',
+		'id_funcionario',
 	),
 )); ?>

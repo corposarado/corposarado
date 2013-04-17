@@ -63,6 +63,7 @@ class DespesaController extends Controller
 	public function actionCreate()
 	{
 		$model=new Despesa;
+		$user= new Funcionario;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -70,6 +71,7 @@ class DespesaController extends Controller
 		if(isset($_POST['Despesa']))
 		{
 			$model->attributes=$_POST['Despesa'];
+			
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id_despesa));
 		}

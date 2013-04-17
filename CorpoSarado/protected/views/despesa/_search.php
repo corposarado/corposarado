@@ -26,6 +26,16 @@
 		<?php echo $form->textField($model,'valor'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'data_vencimento'); ?>
+		<?php echo $form->textField($model,'data_vencimento'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'id_funcionario'); ?>
+		<?php echo $form->textField($model,'id_funcionario'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

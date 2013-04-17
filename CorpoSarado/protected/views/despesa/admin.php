@@ -48,6 +48,8 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'id_despesa',
 		'descricao',
 		'valor',
+		'data_vencimento',
+		'id_funcionario',
 		array(
 			'class'=>'CButtonColumn',
 		),

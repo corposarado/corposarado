@@ -1543,3 +1543,122 @@ Stack trace:
 REQUEST_URI=/PWEB/CorpoSarado/index.php?r=funcionario/page&view=Funcionario
 HTTP_REFERER=http://127.0.0.1/PWEB/CorpoSarado/index.php?r=site/index
 ---
+2013/04/17 12:21:02 [error] [php] Undefined variable: model (C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php(13): CWebApplication->run()
+REQUEST_URI=/PWEB/CorpoSarado/index.php?r=site/index
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\views\site\index.php (15)
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\SiteController.php (32)
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php (13)
+2013/04/17 12:21:04 [error] [php] Undefined variable: model (C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php(13): CWebApplication->run()
+REQUEST_URI=/PWEB/CorpoSarado/index.php?r=site/index
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\views\site\index.php (15)
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\SiteController.php (32)
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php (13)
+2013/04/17 12:36:20 [error] [exception.CException] exception 'CException' with message 'Property "CPortlet.items" is not defined.' in C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('items', Array)
+#1 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.CPo...', Array)
+#2 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CPo...', Array)
+#3 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\views\site\index.php(20): CBaseController->widget('zii.widgets.CPo...', Array)
+#4 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CBaseController.php(126): require('C:\Users\Hugo\D...')
+#5 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Users\Hugo\D...', NULL, true)
+#6 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Users\Hugo\D...', NULL, true)
+#7 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#15 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/PWEB/CorpoSarado/index.php?r=site/index
+HTTP_REFERER=http://127.0.0.1/PWEB/CorpoSarado/index.php?r=site/index
+---
+2013/04/17 12:53:27 [error] [php] Undefined variable: key (C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\DespesaController.php:74)
+Stack trace:
+#0 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilterChain.php(133): DespesaController->runAction()
+#1 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CInlineFilter.php(58): DespesaController->filterAccessControl()
+#4 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(265): DespesaController->runActionWithFilters()
+#7 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(282): DespesaController->run()
+#8 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php(13): CWebApplication->run()
+REQUEST_URI=/PWEB/CorpoSarado/index.php?r=despesa/create
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\DespesaController.php (74)
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php (13)
+2013/04/17 12:55:54 [error] [exception.CException] exception 'CException' with message 'Property "Despesa.cod_fuc" is not defined.' in C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\db\ar\CActiveRecord.php(159): CComponent->__set('cod_fuc', NULL)
+#1 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\DespesaController.php(74): CActiveRecord->__set('cod_fuc', NULL)
+#2 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\actions\CInlineAction.php(49): DespesaController->actionCreate()
+#3 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('despesa/create')
+#13 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/PWEB/CorpoSarado/index.php?r=despesa/create
+HTTP_REFERER=http://127.0.0.1/PWEB/CorpoSarado/index.php?r=despesa/create
+---
+2013/04/17 12:57:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`corposarado`.`despesa`, CONSTRAINT `despesa_ibfk_1` FOREIGN KEY (`id_funcionario`) REFERENCES `funcionario` (`cod_func`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `despesa` (`descricao`, `valor`, `data_vencimento`, `id_funcionario`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\DespesaController.php (75)
+in C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php (13)
+2013/04/17 12:57:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`corposarado`.`despesa`, CONSTRAINT `despesa_ibfk_1` FOREIGN KEY (`id_funcionario`) REFERENCES `funcionario` (`cod_func`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `despesa` (`descricao`, `valor`, `data_vencimento`, `id_funcionario`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\protected\controllers\DespesaController.php(75): CActiveRecord->save()
+#3 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\actions\CInlineAction.php(49): DespesaController->actionCreate()
+#4 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('despesa/create')
+#14 C:\Users\Hugo\Dropbox\PWEB\mvc\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\Users\Hugo\Dropbox\PWEB\CorpoSarado\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/PWEB/CorpoSarado/index.php?r=despesa/create
+HTTP_REFERER=http://127.0.0.1/PWEB/CorpoSarado/index.php?r=despesa/create
+---

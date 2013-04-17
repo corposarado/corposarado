@@ -27,6 +27,18 @@
 		<?php echo $form->error($model,'valor'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'data_vencimento'); ?>
+		<?php echo $form->textField($model,'data_vencimento'); ?>
+		<?php echo $form->error($model,'data_vencimento'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_funcionario'); ?>
+		<?php echo $form->textField($model,'id_funcionario'); ?>
+		<?php echo $form->error($model,'id_funcionario'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
